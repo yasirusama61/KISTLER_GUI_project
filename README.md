@@ -14,7 +14,7 @@ This project is a GUI tool that allows users to extract relevant data from multi
 
 Here is a screenshot of the GUI used in this project:
 
-![KISTLER GUI Screenshot](snapshots/kistler_gui_screenshot.png)
+![KISTLER GUI Screenshot]("C:\Users\yasir\KISTLER_GUI_project\snapshots\kistler_gui_screenshot.png")
 
 ## Setup
 
