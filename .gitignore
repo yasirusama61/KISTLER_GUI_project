@@ -1,0 +1,8 @@
+# Ignore virtual environment directories
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+kistler_gui.log
+dist/
+build/
