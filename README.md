@@ -10,6 +10,12 @@ This project is a GUI tool that allows users to extract relevant data from multi
 - **Graph Plotting**: Generate visual graphs for extracted data, with options for time intervals.
 - **Save Output**: Exports extracted data and graphs to an Excel file with embedded images.
 
+## GUI Screenshot
+
+Here is a screenshot of the GUI used in this project:
+
+![KISTLER GUI Screenshot](snapshots/kistler_gui_screenshot.png)
+
 ## Setup
 
 ### Prerequisites
@@ -29,8 +35,7 @@ This project is a GUI tool that allows users to extract relevant data from multi
 
 ## Running the Application
 To launch the GUI:
-   -`main.py`
-
+   - `python main.py`
 
 ## How to use
 
