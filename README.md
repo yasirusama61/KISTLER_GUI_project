@@ -10,6 +10,20 @@ This project is a GUI tool that allows users to extract relevant data from multi
 - **Graph Plotting**: Generate visual graphs for extracted data, with options for time intervals.
 - **Save Output**: Exports extracted data and graphs to an Excel file with embedded images.
 
+## Sample Data Statistics
+
+| Sensor  | Count | Mean   | Std. Dev | Min    | 25%    | 50%    | 75%    | Max    |
+|---------|-------|--------|----------|--------|--------|--------|--------|--------|
+| EO-01   | 100   | 98.44  | 13.62    | 60.70  | 90.99  | 98.10  | 106.09 | 127.78 |
+| EO-02   | 100   | 120.45 | 19.07    | 81.62  | 103.89 | 121.68 | 130.76 | 174.40 |
+| EO-03   | 100   | 141.62 | 27.11    | 58.97  | 123.61 | 142.44 | 157.61 | 236.32 |
+| EO-05   | 100   | 163.21 | 26.52    | 96.28  | 142.99 | 161.50 | 180.52 | 225.69 |
+| EO-07   | 100   | 178.04 | 37.23    | 99.43  | 148.79 | 177.34 | 202.80 | 287.76 |
+
+### OK/NG Results:
+- OK: 80 pieces
+- NG: 20 pieces
+
 ## GUI Screenshot
 
 Here is a screenshot of the GUI used in this project:
