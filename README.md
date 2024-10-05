@@ -70,3 +70,5 @@ To launch the GUI:
 
 ### Author
 Usama Yasir Khan
+Manufacturing Engineer, Data Team  
+Operation Excellence, Global Operations Engineering
