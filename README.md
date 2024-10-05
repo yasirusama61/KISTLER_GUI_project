@@ -42,5 +42,5 @@ To launch the GUI:
 - **Time Interval**: If random sampling is not used, choose the time interval for graph plotting.
 - **Run**: Click the Run button to start the extraction process. The results will be saved in an Excel file with graphs.
 
-- **Author**
+### Author
 Usama Yasir Khan
