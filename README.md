@@ -10,7 +10,7 @@ This project is a GUI tool that allows users to extract relevant data from multi
 - **Graph Plotting**: Generate visual graphs for extracted data, with options for time intervals.
 - **Save Output**: Exports extracted data and graphs to an Excel file with embedded images.
 
-## Sample Data Statistics
+## Data Statistics
 
 | Sensor  | Count | Mean   | Std. Dev | Min    | 25%    | 50%    | 75%    | Max    |
 |---------|-------|--------|----------|--------|--------|--------|--------|--------|
