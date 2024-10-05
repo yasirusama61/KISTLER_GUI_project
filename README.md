@@ -16,6 +16,13 @@ Here is a screenshot of the GUI used in this project:
 
 ![KISTLER GUI Screenshot](snapshots/kistler_gui_screenshot.png)
 
+### Assembly Force Plot
+
+Below is a plot showing the assembly forces over time, highlighting OK and NG pieces:
+
+![Assembly Force Plot](snapshots/kistler_force_plot.png)
+
+
 ## Setup
 
 ### Prerequisites
