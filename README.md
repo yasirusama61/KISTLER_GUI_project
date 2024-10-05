@@ -22,3 +22,25 @@ This project is a GUI tool that allows users to extract relevant data from multi
   - `time`
   - `plotnine`
   - `tkinter`
+
+## Install required dependencies
+
+- `pip install -r requirements.txt`
+
+## Running the Application
+To launch the GUI:
+   -`main.py`
+
+
+## How to use
+
+- **Select Machine**: Choose between FAAM_1 and FAAM_2.
+- **Enter SO Number**: Provide the Sales Order (SO) number for batch extraction.
+- **Select Time Range**: Specify the start and end time for data extraction.
+- **Select Final Result**: Filter data based on OK, NOK, or both results.
+- **Random Sampling**: Optionally, choose to sample random files from the extracted data.
+- **Time Interval**: If random sampling is not used, choose the time interval for graph plotting.
+- **Run**: Click the Run button to start the extraction process. The results will be saved in an Excel file with graphs.
+
+- **Author**
+Usama Yasir Khan
