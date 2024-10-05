@@ -1,0 +1,5 @@
+pandas==1.3.3
+openpyxl==3.0.9
+plotnine==0.8.0
+numpy==1.21.2
+tkinter==0.1.0
