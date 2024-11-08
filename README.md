@@ -56,6 +56,23 @@ This combined sensor view is essential for continuous monitoring of overall mach
 
 > **Note**: This section will serve as a valuable tool for quality assurance teams, maintenance staff, and engineers focused on ensuring the consistency and reliability of the FAAM machine’s operations.
 
+## 📊 Cycle Time Analysis
+
+**Goal:** Analyze cycle time variability across batches to assess process efficiency and identify bottlenecks.
+
+**Implementation:** Calculate the average and variance in cycle times for each batch, focusing on key steps such as assembly, inspection, and packaging.
+
+**Visualization:** The box plot below displays cycle times for various batches, color-coded by result (green for OK, red for NOK). This visual distinction allows for a quick assessment of cycle time distributions between acceptable and non-acceptable batches.
+
+![Cycle Time Analysis by Batch](snapshots/cycle_time_analysis.png)
+
+**Insights:**
+- **Cycle Time Variation:** NOK batches exhibit higher cycle time variability, indicating potential inefficiencies or delays.
+- **Process Efficiency:** OK batches generally show more consistent cycle times, which could be indicative of a streamlined process.
+- **Bottlenecks:** By identifying batches with excessive cycle time variability, it may be possible to pinpoint steps in the production line that could benefit from process optimization.
+
+This analysis provides a clear view of how cycle time impacts production quality, allowing for targeted improvements to enhance manufacturing efficiency and reduce downtime.
+
 ## 📷 GUI Screenshot
 
 Below is a screenshot of the GUI used in this project:
