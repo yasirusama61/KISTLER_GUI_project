@@ -25,6 +25,32 @@ This project provides a GUI tool for extracting and analyzing data from CSV file
 - **OK**: 80 pieces
 - **NG**: 20 pieces
 
+## 📊 Data Analysis
+
+### 📈 Combined EO Sensor Data Distribution
+
+![Combined EO Sensor Distribution](snapshots/combined_eo_distribution.png)
+
+This plot showcases the distributions of measurements for all EO sensors (EO-01, EO-02, EO-03, EO-05, EO-07) used in the FAAM machine for autoinjector assembly. Analyzing the data across all sensors provides a comprehensive view of their behavior, allowing quick identification of trends, deviations, and potential anomalies across the production line.
+
+#### Key Insights
+
+- **Normal Operating Range** 🎯: This distribution establishes baseline ranges for each sensor's measurements, helping to quickly identify deviations.
+- **Threshold Markers** 🚦: High and low threshold lines (dashed) for each sensor denote the acceptable operational range. Values beyond these thresholds may signal potential outliers or abnormal behavior.
+- **Anomaly Detection** 🛑: By viewing all sensors together, it’s easier to spot patterns or unusual values across multiple measurements, which could indicate emerging issues.
+
+### 📊 Interpretation of Combined Sensor Plot
+
+- **Cross-Sensor Analysis** 🔍: Analyzing all sensors in one plot enables systemic insight, allowing the detection of potential issues affecting multiple machine components.
+- **Anomalies and Outliers** 📛: Values outside of threshold lines are flagged for review, supporting quality control and consistency within the assembly process.
+- **Real-Time Monitoring** ⏱️: This plot can be updated in real-time to capture any sensor behavior shifts over time, supporting proactive maintenance and quality assurance.
+
+This combined sensor view is essential for continuous monitoring of overall machine health, ensuring all EO sensors operate within expected ranges and facilitating quick detection of potential production line issues.
+
+---
+
+> **Note**: This section will serve as a valuable tool for quality assurance teams, maintenance staff, and engineers focused on ensuring the consistency and reliability of the FAAM machine’s operations.
+
 ## 📷 GUI Screenshot
 
 Below is a screenshot of the GUI used in this project:
