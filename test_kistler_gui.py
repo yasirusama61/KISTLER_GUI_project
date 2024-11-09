@@ -1,8 +1,8 @@
-import unittest
+iimport unittest
 import os
 import pandas as pd
 from datetime import datetime
-from kistler_gui_project import get_csv, get_Data, Draw
+from kistler_gui_project import get_csv, get_Data, Draw, plot_graphs
 
 class TestKistlerGUI(unittest.TestCase):
 
@@ -45,27 +45,35 @@ class TestKistlerGUI(unittest.TestCase):
         self.assertEqual(result[1], 'Mock data')
 
     def test_Draw(self):
-        # Test the Draw function to check if it processes data correctly (no graphical validation)
+        # Test the Draw function to check if it processes data and generates plots correctly
         df = pd.DataFrame({
+            'BatchNo': ['B1', 'B2'],
+            'Filename': ['file1', 'file2'],
             'Final_Result': ['OK', 'NOK'],
             'Timestamp': [datetime.now(), datetime.now()],
             'Year': [2022, 2022],
             'Month': [5, 5],
             'Date': [29, 29],
             'Sensor': ['EO-01', 'EO-02'],
-            'SensorValue': [1.0, 2.0]
+            'SensorValue': [98, 120]
         })
+        
         targetFolder = "mock_target_folder"
         os.makedirs(targetFolder, exist_ok=True)
+        
+        # Run the Draw function to generate plots
         Draw(df, "10min", targetFolder)
         
-        # Check if images were generated
-        images = [f for f in os.listdir(targetFolder) if f.endswith('.jpg')]
-        self.assertGreater(len(images), 0)
+        # Check if the plots for sensor value distribution and cycle time analysis are generated
+        dist_plot_path = os.path.join(targetFolder, "sensor_value_distribution.png")
+        cycle_time_plot_path = os.path.join(targetFolder, "cycle_time_analysis.png")
+        
+        self.assertTrue(os.path.exists(dist_plot_path), "Sensor value distribution plot not generated.")
+        self.assertTrue(os.path.exists(cycle_time_plot_path), "Cycle time analysis plot not generated.")
 
         # Clean up generated files
-        for img in images:
-            os.remove(os.path.join(targetFolder, img))
+        for plot in [dist_plot_path, cycle_time_plot_path]:
+            os.remove(plot)
         os.rmdir(targetFolder)
 
 if __name__ == '__main__':
